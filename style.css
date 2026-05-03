@@ -1,0 +1,112 @@
+/* Main Background */
+.stApp {
+    background: radial-gradient(circle at top right, #1a1a2e, #16213e, #0f3460);
+    color: #e94560;
+}
+
+/* Input Field */
+.stTextInput input {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(233, 69, 96, 0.3) !important;
+    border-radius: 12px !important;
+    color: #ffffff !important;
+    padding: 15px !important;
+    font-size: 1.1rem !important;
+    backdrop-filter: blur(10px);
+}
+
+/* Custom Header */
+.main-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    background: -webkit-linear-gradient(#fff, #e94560);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.sub-title {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+}
+
+/* Chat Bubbles */
+.user-bubble {
+    background: rgba(233, 69, 96, 0.2);
+    padding: 15px 20px;
+    border-radius: 20px 20px 0 20px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(233, 69, 96, 0.1);
+    text-align: right;
+}
+
+.ai-bubble {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 15px 20px;
+    border-radius: 20px 20px 20px 0;
+    margin-bottom: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Hide Streamlit Branding */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+/* Submit Button Centering & Styling */
+.stFormSubmitButton, .stButton {
+    display: flex;
+    justify-content: center;
+}
+.stFormSubmitButton button, .stButton button {
+    display: block !important;
+    margin: 20px auto !important;
+    width: 250px !important;
+    background: linear-gradient(90deg, #e94560, #950740) !important;
+    border: none !important;
+    color: white !important;
+    padding: 12px !important;
+    border-radius: 12px !important;
+    font-weight: 600 !important;
+    transition: 0.3s all !important;
+}
+.stFormSubmitButton button:hover, .stButton button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(233, 69, 96, 0.4);
+}
+
+/* Sexy Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(15, 15, 35, 0.95);
+    backdrop-filter: blur(15px);
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    border-top: 1px solid rgba(233, 69, 96, 0.4);
+    box-shadow: 0 -10px 30px rgba(0,0,0,0.5);
+    z-index: 999;
+}
+.footer span {
+    color: #e94560;
+    font-weight: 800;
+    transition: 0.3s all ease-in-out;
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 5px;
+}
+.footer span:hover {
+    color: #ffffff;
+    transform: translateY(-2px) scale(1.1);
+    text-shadow: 0 0 10px #e94560, 0 0 20px #e94560;
+}

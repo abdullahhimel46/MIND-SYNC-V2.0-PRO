@@ -1,0 +1,5 @@
+Machine learning is a field of AI that allows systems to learn from data.
+
+RAG stands for Retrieval Augmented Generation.
+
+Spring Boot is used for backend development.
