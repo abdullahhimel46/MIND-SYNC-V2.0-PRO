@@ -1,5 +1,10 @@
 # 🧠 MIND SYNC V2.0 PRO
 
+<p align="center">
+  <img src="assets/preview1.png" width="45%" />
+  <img src="assets/preview2.png" width="45%" />
+</p>
+
 ### 🌍 Real-Life Problem & Solution
 **The Problem:** Standard AI models (like ChatGPT) are brilliant but "blind" to your private data. Whether it's your company's internal policies, a 500-page research paper, or your personal study notes, a general AI cannot answer specific questions about them without you manually copying and pasting huge amounts of text—which is tedious and often impossible due to context limits.
 
